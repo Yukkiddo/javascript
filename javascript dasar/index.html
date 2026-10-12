@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Belajar JavaScript: Kalkulator</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <script src="assets/script.js" defer></script>
+  </head>
+  <body>
+    <main class="kalkulator">
+      <div class="layar-wrap">
+        <div id="riwayat" class="riwayat"></div>
+        <div id="layar" class="layar">0</div>
+      </div>
+
+      <div class="tombol-wrap">
+        <button class="tombol abu" data-tipe="aksi" data-nilai="ac">AC</button>
+        <button class="tombol abu" data-tipe="aksi" data-nilai="del">DEL</button>
+        <button class="tombol abu" data-tipe="aksi" data-nilai="persen">%</button>
+        <button class="tombol oranye" data-tipe="operator" data-nilai="/">÷</button>
+
+        <button class="tombol" data-tipe="angka" data-nilai="7">7</button>
+        <button class="tombol" data-tipe="angka" data-nilai="8">8</button>
+        <button class="tombol" data-tipe="angka" data-nilai="9">9</button>
+        <button class="tombol oranye" data-tipe="operator" data-nilai="*">×</button>
+
+        <button class="tombol" data-tipe="angka" data-nilai="4">4</button>
+        <button class="tombol" data-tipe="angka" data-nilai="5">5</button>
+        <button class="tombol" data-tipe="angka" data-nilai="6">6</button>
+        <button class="tombol oranye" data-tipe="operator" data-nilai="-">−</button>
+
+        <button class="tombol" data-tipe="angka" data-nilai="1">1</button>
+        <button class="tombol" data-tipe="angka" data-nilai="2">2</button>
+        <button class="tombol" data-tipe="angka" data-nilai="3">3</button>
+        <button class="tombol oranye" data-tipe="operator" data-nilai="+">+</button>
+
+        <button class="tombol nol" data-tipe="angka" data-nilai="0">0</button>
+        <button class="tombol" data-tipe="aksi" data-nilai="desimal">,</button>
+        <button class="tombol oranye" data-tipe="aksi" data-nilai="sama">=</button>
+      </div>
+    </main>
+
+    <noscript>
+      <h2>JavaScript tidak aktif, mohon diaktifkan untuk bisa menggunakan kalkulator</h2>
+    </noscript>
+  </body>
+</html>
